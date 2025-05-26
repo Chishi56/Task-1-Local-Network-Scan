@@ -50,7 +50,7 @@ xsltproc scan.xml -o scan.html
 | IP Address     | Open Ports | Services    | Risk Level | Notes                                      |
 | -------------- | ---------- | ----------- | ---------- | ------------------------------------------ |
 | `192.168.1.1`  | 80, 443    | HTTP, HTTPS |  Medium  | Router interface accessible via HTTP/HTTPS |
-| `192.168.1.2`  | 80         | HTTP        | Medium  | Possible IoT/printer — needs validation    |
+| `192.168.1.2`  | 80         | HTTP        | Medium  | Possible IoT/printer — needs validation     |
 | `192.168.1.3`  | None       | —           | Low      | All ports closed                           |
 | `192.168.1.6`  | 3306       | MySQL       | High    | MySQL DB exposed — major security risk     |
 | `192.168.1.8`  | None       | —           | Low      | All ports closed                           |
