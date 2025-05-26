@@ -90,7 +90,7 @@ tcp.port == 3306
 # Project Files Included
 | File                  | Description                                                                                  |
 | --------------------- | ---------------------------------------------------------------------------------------------|
-| `scan.txt `                                | Nmap report in text mode viewing                                        |
+| `scan.html`                                | Formatted Nmap report for web viewing                                   |
 | `wireshark_capture.txt`                    | Full Wireshark report of Nmap scan traffic                              |
 | `wireshark_capture_tcp.port 3306.txt`      | Wireshark capture report of only tcp.port == 3306 of Nmap scan traffic  |
 | `README.md`                                | Overall Documentation                                                   |
