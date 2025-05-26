@@ -88,11 +88,12 @@ tcp.port == 3306
 - Apply firmware and OS updates
 
 # Project Files Included
-| File                  | Description                            |
-| --------------------- | -------------------------------------- |
-| `scan.html`           | Formatted Nmap report for web viewing  |
-| `capture.pcapng`      | Wireshark capture of Nmap scan traffic |
-| `README.md`           | This documentation                     |
+| File                  | Description                                                                                  |
+| --------------------- | ---------------------------------------------------------------------------------------------|
+| `scan.txt `                                | Nmap report in text mode viewing                                        |
+| `wireshark_capture.txt`                    | Full Wireshark report of Nmap scan traffic                              |
+| `wireshark_capture_tcp.port 3306.txt`      | Wireshark capture report of only tcp.port == 3306 of Nmap scan traffic  |
+| `README.md`                                | Overall Documentation                                                   |
 
 # Conclusion
 This project successfully mapped the internal network, revealing multiple active devices and one critical exposure: an open MySQL service on 192.168.1.6. The use of both Nmap and Wireshark allowed for thorough service discovery and traffic-level verification. The findings demonstrate the importance of closing unused ports, limiting remote access, and hardening network-facing services.
